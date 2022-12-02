@@ -172,7 +172,7 @@ Next, run the `app-local.py` file with Python to launch the application:
 python app-local.py
 ```
 
-If successful, the application will start a web server that can be accessed via any browser at [http://127.0.0.1:7860](http://127.0.0.1:7860).   
+If successful, the application will start a web server on your local machine that can be accessed via any browser at [http://localhost:7860](http://localhost:7860).   
 
 The local version of the application has the same functionality as the online version, while being accessible without a network connection and able to handle lengthy audio files as input.
 
