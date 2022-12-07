@@ -156,20 +156,34 @@ The sample program above is included in this repository as `whisper_test.py` and
 
 ### Whisper GUI
 
-To provide a more user-friendly demo, we considered the options for including a Graphical User Interface on top of the Python application.  [Whisper-WebUI](https://huggingface.co/spaces/aadnk/whisper-webui) is one good example of a web application featuring an easy-to-use GUI for Whisper, built with the [Gradio](https://gradio.app/) library and deployed on HuggingFace Spaces.
+To provide a more user-friendly demo, we considered the options for including a Graphical User Interface on top of the Python application. 
+<!--[Whisper-WebUI](https://huggingface.co/spaces/aadnk/whisper-webui)--> 
+[Whisper_Transcribe](https://huggingface.co/spaces/chinhon/whisper_transcribe) is one simple example of a web application featuring an easy-to-use GUI for Whisper, built with the [Gradio](https://gradio.app/) library and deployed on HuggingFace Spaces.
 
-To create a version of Whisper-WebUI running locally, clone the repository and run a command to install the required libraries:  
+To create a version of <!--Whisper-WebUI--> Whisper_Transcribe running locally, clone the repository and run a command to install the required libraries:  
 
+<!--
 ```
 git clone https://huggingface.co/spaces/aadnk/whisper-webui
 cd whisper-webui
 python -m pip install -r requirements.txt
-```  
-
+```
+-->
+```
+git clone https://huggingface.co/spaces/chinhon/whisper_transcribe
+cd whisper_transcribe
+python -m pip install -r requirements.txt
+```
+<!--
 Next, run the `app-local.py` file with Python to launch the application:   
-
 ```
 python app-local.py
+```
+-->
+
+Next, run the `app.py` file with Python to launch the application:   
+```
+python app.py
 ```
 
 If successful, the application will start a web server on your local machine that can be accessed via any browser at [http://localhost:7860](http://localhost:7860).   
