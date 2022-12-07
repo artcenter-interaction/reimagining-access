@@ -121,7 +121,7 @@ The [Rust](https://www.rust-lang.org/learn/get-started) development environment 
 brew install rust
 
 # other Operating Systems
-# [https://forge.rust-lang.org/infra/other-installation-methods.html](https://forge.rust-lang.org/infra/other-installation-methods.html)
+# https://forge.rust-lang.org/infra/other-installation-methods.html
 ```
 
 ### Whisper installation
